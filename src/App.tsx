@@ -416,8 +416,9 @@ function AboutPage() {
         <article><h3>Mission</h3><p>Creating original manga, animation, and music under one creative studio.</p></article>
       </div>
       <footer className="footer">
-        {["About", "Contact", "Privacy Policy", "Terms of Service", "Discord", "Instagram", "YouTube"].map((link) => <button key={link}>{link}</button>)}
-      
+        {["About", "Contact", "Privacy Policy", "Terms of Service", "Discord", "Instagram", "YouTube"].map((link) => (
+        <button key={link}>{link}</button>
+        ))}
       </footer>
     </PageShell>
   );

@@ -416,7 +416,9 @@ function AboutPage() {
         <article><h3>Manager</h3><p>SHRI</p></article>
       </div>
       <footer className="footer">
-        {["About", "Contact", "Privacy Policy", "Terms of Service", "Discord", "Instagram", "YouTube"].map(link) => <button key={link}>{link}</button>)}
+        {["About", "Contact", "Privacy Policy", "Terms of Service", "Discord", "Instagram", "YouTube"].map((link) => (
+  <button key={link}>{link}</button>
+))}
       
       </footer>
     </PageShell>

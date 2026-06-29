@@ -412,8 +412,8 @@ function AboutPage() {
     <PageShell eyebrow="About" title="Wet Sponge" intro="Creating original manga, animation, and music under one creative studio.">
       <div className="about-grid">
         <article><h3>Founder</h3><p>PAIRIO / G7</p></article>
-        <article><h3>Co-Founders</h3><p>CRISPY / SHRI / ZEN</p></article>
-        <article><h3>Mission</h3><p>Creating original manga, animation, and music under one creative studio.</p></article>
+        <article><h3>Co-Founders</h3><p>CRISPY / ZEN</p></article>
+        <article><h3>Manager</h3><p>SHRI</p></article>
       </div>
       <footer className="footer">
         {["About", "Contact", "Privacy Policy", "Terms of Service", "Discord", "Instagram", "YouTube"].map((link) => <button key={link}>{link}</button>)}

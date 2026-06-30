@@ -48,13 +48,19 @@ export type Post = {
 
 export const manga: Manga[] = [
   {
-    id: "7 life 7 Ways",
-    title: "7 life 7 Ways",
-    chapter: "One shot",
-    releaseDate: "25 12, 2025",
-    likes: "0",
-    comments: 0,
-    coverPosition: "0% 0%",
+    {
+    id: "7life7way",
+    title: "7 Life 7 Waye",
+    chapter: "Chapter 1",
+    summary: "The first chapter is now available.",
+    releaseDate: "Available Now",
+    cover: "/assets/manga/7life7waye/cover.jpg",
+    pages: [
+      "/assets/manga/7life7way/page1.jpg",
+      "/assets/manga/7life7way/page2.jpg",
+      "/assets/manga/7life7way/page3.jpg",
+    ],
+    comingSoon: false,
     summary: "A tired soul gets grilled in the void about its seven past lives: ant (scared of feet), fish (free then trapped), lion (king then forgotten), tree (endures everything), bacterium (hated and invisible), human (complicated pain, pressure, loneliness). After remembering all the suffering, it just wants peace. Chooses to become a cloud next. Drifts away free.",
   },
   {

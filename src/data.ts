@@ -48,14 +48,14 @@ export type Post = {
 
 export const manga: Manga[] = [
   {
-    id: "rain-arc",
-    title: "Rain Arc Signal",
-    chapter: "Chapter 18",
-    releaseDate: "Jun 28, 2026",
-    likes: "18.4K",
-    comments: 842,
+    id: "7 life 7 Ways",
+    title: "7 life 7 Ways",
+    chapter: "One shot",
+    releaseDate: "25 12, 2025",
+    likes: "0",
+    comments: 0,
     coverPosition: "0% 0%",
-    summary: "A rooftop receiver starts broadcasting pages from a future chapter.",
+    summary: "A tired soul gets grilled in the void about its seven past lives: ant (scared of feet), fish (free then trapped), lion (king then forgotten), tree (endures everything), bacterium (hated and invisible), human (complicated pain, pressure, loneliness). After remembering all the suffering, it just wants peace. Chooses to become a cloud next. Drifts away free.",
   },
   {
     id: "paper-moon",

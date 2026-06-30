@@ -56,7 +56,7 @@ export const manga: Manga[] = [
     releaseDate: "Available Now",
     cover: "/assets/manga/7life7waye/cover.png",
     pages: [
-      "/assets/manga/7life7waye/cover.png",
+      "/assets/manga/7life7waye/cover.webp",
       "/assets/manga/7life7way/sam.png",
       "/assets/manga/7life7way/1.png",
       "/assets/manga/7life7way/2.png",
